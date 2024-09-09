@@ -1,0 +1,1038 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+.demo{
+    background-color: red;
+    text-align: right;
+    padding: 12px 15px;
+    margin: 0 auto;
+    
+}
+.demo1{
+    background-color: red;
+}
+.demo li{
+    display: inline-block;
+    margin-right: 20px;  
+}
+.demo li a{
+    font-family:"Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 1px;
+    font-weight: 500;
+}
+.logo {
+display: flex;
+justify-content: space-between;
+margin-left: 30px;
+}
+.subcont ul{
+    list-style-type: none;
+}
+.subcont{
+    padding: 10px;
+}
+.nav{
+    margin-top: 15px;
+}
+.nav li{
+    display: inline;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+
+
+.ground img{
+    width: 100%;
+}
+.whole1{
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    transform: translateX(-50%);
+}
+.every h1{ 
+    color:white;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 100px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5; 
+}
+.every h1 span{
+    display: block;
+}
+.based h3{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 30px;
+    line-height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.learn-now a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: red;
+    border: 20px, solid red;
+    padding: 0px 20px; 
+}
+.learn-now{
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.who h2{
+    font-family:"Roboto", sans-serif;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight:400;
+}
+
+.whort{
+    padding-top: 30px;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+.whort p span{
+    display: block;
+}
+.fees span{
+    display: block;
+}
+.feeleft{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    text-align: center;  
+    justify-content: space-between;
+}
+.fees{
+    flex-basis:40%;
+    width: 100%;
+    text-align: center;
+}
+.fees img{
+width: 80px;
+height: 80px;
+padding-bottom: 10px;
+}
+.fees h3{
+    font-family: "Roboto", sans-serif;
+    color:#159dce;
+text-transform: capitalize;
+padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.fees p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+.suite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.doctor-rt img{
+    flex-basis: 50%;  
+ }
+.point span{
+    display: block;
+}
+.suite p{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+line-height:30px ;
+padding-bottom: 10px;
+}
+.suite a{
+    text-decoration: none;
+    color: red;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 500;
+}
+.serve1{
+    margin-top: 100px;
+}
+
+.serve1 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 50px;
+}
+.serve-who p span{
+   display: block;
+}
+
+.serve-who p{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 30px;
+    font-size: 20px; 
+    padding-top: 40px;
+}
+.path{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 21px;
+    padding-bottom: 40px;
+}
+.health{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heal{
+    flex-basis:30%;
+}
+.heal img{
+     width: 60px;
+    padding-top: 40px;
+}
+.heal h3{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;  
+    padding-top: 10px; 
+    font-size: 20px;
+}
+.heal p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.heal a{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: red; 
+    font-weight: 500;
+}
+.heal span{
+    display: block;
+}
+.programss{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.programs-left{
+    flex-basis: 50%;
+}
+.stag h2{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 200px;
+    padding-bottom: 80px;
+}
+.programs-left img{
+    width: 450px;
+    padding-left: 40px;
+}
+.programs-left1 h3{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;  
+    padding-bottom: 20px; 
+}
+.programs-left1 p span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+}
+.programs-left1 p{
+    padding-bottom: 20px;
+}
+.var{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+.programs-left1 a{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 15px solid red;
+    padding: 3px 10px; 
+}
+.programss1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.programs-left2{
+    flex-basis: 50%;
+}
+.programs-left2{
+    padding-top: 70px;
+}
+.programs-left2 p{
+    padding-bottom: 20px;
+}
+.programs-left2 h3{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;  
+    padding-bottom: 20px; 
+    margin-top: 20px;
+}
+.programs-left2 p span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+}
+.var1{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+.programs-left2 a{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 15px solid red;
+    padding: 3px 10px;
+}
+.progimg{
+    width: 450px;
+    padding-top: 100px;
+}
+.eren h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    margin-top: 200px;
+}
+.eren p span{
+    display: block;
+    font-size: 23px;  
+}
+.eren p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    padding-bottom: 60px;
+}
+.edge1 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.edge p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+    line-height: 30px;
+    padding-left: 15px;
+   }
+.edge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.edge1{
+    flex-basis: 40%;
+    display: block;
+    
+}
+.edge1 i::before{
+    color: rgb(51, 172, 220);
+    font-size: 35px;
+    position: relative;
+    right: 25px;
+    top: 30px;
+}
+.flow1 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.nothing {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+}
+.flow{
+    flex-basis:30%;
+    flex-direction: row;
+    text-align: center;
+}
+.flow h4{
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.flow p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.module h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.module p span{
+    display: block;
+}
+.module p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 23px;
+}
+.module h4{
+    font-family: "Roboto", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.measure img{
+    position: relative;
+    right: 70px;
+    top: 60px;
+    width: 60px;
+}
+.meas1 h2{
+text-transform: capitalize;
+padding-bottom: 20px;
+font-weight: 500;
+}
+.meas1 p{
+    padding-bottom: 20px;
+    display: block;
+    line-height: 30px;
+}
+.meas1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+}
+.measure{
+    flex-basis: 40%;
+}
+.about li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.tenet h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+.thought{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+.sit:hover{
+    transform: scale(1.1);
+    background-color: lightslategray;
+}
+.sit img{
+        width: 100%;
+}
+.sit h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.sit p{
+    font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   margin-left: 10px;
+   text-transform: capitalize;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.sit a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    color: red;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contenttt {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 42%;
+}
+.contenttt a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 13px solid red;
+    background-color: red;
+}
+
+.can h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.myleft1{
+    flex-basis: 40%;
+    height: 350px;
+    text-align: center; 
+    border: 2px solid rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221);
+    
+}
+
+.myleft1 img{
+    width:70px;
+    margin-top:40px;
+}
+.myleft1 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.myleft1 span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.back1 a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 13px solid red;
+    background-color: red;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.back a{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 13px solid rgb(51, 172, 220);
+    background-color:rgb(51, 172, 220);
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.uni img{
+    margin-top: 80px;
+}
+.quick-left h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:rgb(51, 172, 220) ;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+.quick-center h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:rgb(51, 172, 220) ;
+    padding-bottom: 10px; 
+     margin-top: 80px;
+
+}
+.quick-right h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:rgb(51, 172, 220) ;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+.quick-left ul li{
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 15px;   
+}
+.quick-center ul li{
+    font-family: "Roboto", sans-serif; 
+    list-style-type: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 15px;    
+}
+.quick-right ul li{
+    font-family: "Roboto", sans-serif;   
+    list-style-type: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 15px;
+}
+.quick-left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.quick-center a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.quick-right a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+} 
+.quick-right span{
+    color: black;
+    font-weight: 500;
+}
+.quick-center ul li span{
+    display: block;
+    line-height: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.footer-bottom p{
+    font-family: "Roboto", sans-serif; 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: small;
+    font-weight: 400;
+}
+.footer-bottom1 p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-size: small;
+    font-weight: 300;
+}
+.gwen{
+    border-bottom: 1px solid black;
+}
+.quick-center ul h5{
+    margin-top: 20px;
+}
+.quick-right input{
+    width: 50%;
+    font-family: "Roboto", sans-serif; 
+    margin-top: 15px;
+   height: 35px;
+   padding: 10px;
+}
+.quick-right button{
+    background-color: red;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: 2px solid red;
+    padding: 8px;
+}
+.quick-right i{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.fa-x-twitter{
+    border: 5px solid red;
+    background-color: red;
+}
+.fa-linkedin-in{
+    border: 5px solid red;
+    background-color: red;
+    border-radius: 24px;
+}
+.fa-envelope{
+    border: 5px solid red;
+    background-color: red;
+    border-radius: 24px;
+}
+    
+
+ 
+
+@media all and (max-width: 580px) {
+    
+    .demo li a{
+        font-size: 12px;
+    }
+    .demo{
+        padding: 6px 7px;
+    }
+    .demo li{
+        margin-left: 13px;
+    }
+    .logo img{
+        margin: 0 auto;
+        width: 100px;
+        height: 40px;
+    }
+    .subcont{
+        padding: 0 0 0 0;
+    }
+    .nav li a{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .nav{
+        margin-top: 9px;
+    }
+    .every h1 {
+           font-size: 17px;
+       }
+     .whole1 {
+    position: absolute;
+    left: 23%;
+    top: 10%;
+     }
+   }
+
+   @media all and (max-width:580px) {
+    .based h3 {
+           font-size: 16px;
+       }
+   .learn-now{
+       padding-top: 5px;
+   }
+   .learn-now a{
+       border: 10px, solid red;
+       padding: 0px 7px;
+       font-size: 12px;
+   }
+}
+
+@media all and (max-width:580px) {
+    .whort {
+      font-size: 15px;  
+      text-align: center;
+      line-height: 30px;
+      padding-bottom: 50px;
+    }
+    .who h2{
+        font-size: 30px;  
+        text-align: center;
+      }
+}
+
+@media all and (max-width: 580px) {
+    .fees{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .fees img{
+           width: 60px;
+           height:60px;
+       }
+    .fees h3{
+        font-size: 20px;
+    }
+    .fees p{
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+   }
+
+   @media all and (max-width:580px) {
+    .point p span{
+        text-align: center;
+        font-size: 15px;
+    }
+    .doctor-rt img{
+        margin-left: 50px;
+        width:400px;
+    }
+    .suite a{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:580px) {
+    .serve1 {
+        margin-top: 20px;
+    }
+    .serve1  {
+font-size: 30px;
+    }
+    .serve-who p span{
+        font-weight: 300;
+        font-size: 15px;
+        display: inline;
+     }
+     .path {
+        font-size: 17px;
+        padding-bottom: 10px;
+     }
+     .heal{
+        flex-basis:100%;
+        text-align: center;
+    }
+    .heal img{
+        width: 50px;
+        padding-top: 20px;
+        display:block;margin:0 auto;
+    }
+    .heal h3{
+        font-size: 18px;
+    }
+    .heal p span{
+        display: inline;
+    }
+}
+
+@media all and (max-width:580px) {
+    .stag h2{
+        font-size: 35px;
+        margin-top: 80px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .programs-left img {
+        display:block; margin:0 auto;
+    }
+    .programs-left1 h3{
+        font-size: 25px;
+        text-align: center;
+    } 
+    .programs-left1 p span{
+        font-size: 15px;
+        text-align: center;
+        display: inline;
+    } 
+    .programs-left1 a{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 38%;
+        margin-top: 40px;
+        border: 8px solid red;
+        padding: 3px 5px; 
+    } 
+    .programs-left2 {
+        flex-basis: 100%;
+    } 
+    .programs-left2 h3{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .programs-left2 p span{
+        font-size: 15px;
+        text-align: center;
+        display: inline;
+    } 
+    .programs-left2 a{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 38%;
+        margin-top: 40px;
+        border: 8px solid red;
+        padding: 3px 5px; 
+    }
+    .progimg {
+        display:block;margin:0 auto;
+    }  
+}
+@media all and (max-width:580px) {
+    .eren h2{
+        font-size: 35px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .eren p span{
+        font-size: 16px;
+       display: inline;
+        text-align:center;
+        font-weight: 400;
+    }
+    .edge1 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .edge1 i{
+        display: none;
+    }
+}
+
+@media all and (max-width:580px) {
+    .flow1 h2{
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .flow{
+        flex-basis: 100%;
+    }
+    .flow p{
+        margin-bottom: 40px;
+    }
+    .flow img{
+        width: 50px;
+        height: 50px;
+    }
+} 
+
+@media all and (max-width:580px) {
+    .module h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .module p span{
+        text-align: center;
+        display: inline;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .module h4{
+        text-align: center;
+    }
+    .measure{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .measure img{
+        top: 10px;
+        right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width:580px) {
+    .tenet h2{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .sit{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .sit img {
+        margin-top: 20px;
+    }
+}
+
+
+@media all and (max-width:580px) {
+    .can h2{
+        margin-top: 80px;
+    }
+    .myleft1 {
+       height: 300px;
+       text-align: center;
+    }
+    .myleft1 img{
+        width: 50px;
+    }
+    .back1 a{
+        border: 10px solid red;
+    }
+    .back a{
+        border: 10px solid rgb(51, 172, 220);
+    }
+}
+@media all and (max-width:580px) {
+    .uni{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .quick-left{
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .quick-center{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .quick-right{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
